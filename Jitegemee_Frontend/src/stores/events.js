@@ -3,69 +3,34 @@ import { defineStore } from "pinia";
 
 export const useEventsStore = defineStore("events", () => {
   const events = ref([
-    {
-      name: "Community Service",
-      image: "School of Computing and Engineering",
-      date: "Best course for computer enthusiasts",
-      location: "July 2025",
-      category: "",
-    },
-    {
-      name: "Hackathon",
-      image: "School of Medicine and Surgery",
-      date: "Best course for learning about the human body",
-      location: "September 2025",
-      category: "",
-    },
-    {
-      name: "Voluntery Service",
-      image: "Institute of Mathematics",
-      date: "Make data make sense",
-      location: "July 2025",
-      category: "",
-    },
-    {
-      name: "Coding Bootcamp",
-      image: "School of Computing and Engineering",
-      date: "Best course for machinery",
-      location: "July 2025",
-      category: "",
-    },
-    {
-      name: "InterSchool Sports Event",
-      image: "School of Computing and Engineerings",
-      date: "How to combine IT in Business",
-      location: "April 2026",
-      category: "",
-    },
-    {
-      name: "Architecture",
-      image: "Institute of Mathematics",
-      date: "Learn to design the best architecture",
-      location: "July 2025",
-      category: "",
-    },
-    {
-      name: "Communications",
-      image: "School of Humanities and Social Sciences",
-      date: "Learn to be a good communicator",
-      location: "July 2025",
-      category: "",
-    },
-    {
-      name: "Hospitality and Tourism",
-      image: "School of Hospitality and Tourism",
-      date: "Service industry made better",
-      location: "September 2025",
-      category: "",
-    },
-    {
-      name: "Financial Engineering",
-      image: "Institute of Mathematics",
-      date: "Best for finance enthusiasts",
-      location: "July 2025",
-      category: "",
-    },
+        {
+            name: "Community Outreach at Northern Kenya",
+            image: "../../public/images/events/ian-macharia-gogGhbvHrYw-unsplash.jpg",
+            date: "July 6th 2025",
+            location: "Northern Kenya School",
+            category: "Community Outreach"
+        },
+        {
+            name: "InterClub Sports Competition",
+            image: "../../public/images/events/cie-ptit-8k0R8cAmsSE-unsplash.jpg",
+            date: "30th June",
+            location: "Sports Complex",
+            category: "Clubs"
+        },
+        {
+            name: "ICT Club Visit to Konza",
+            image: "../../public/images/events/Konza.jpg",
+            date: "28th June 2025",
+            location: "Konza Technopolis",
+            category: "Clubs"
+        },
+        {
+            name: "Software Development Bootcamp",
+            image: "../../public/images/events/arif-riyanto-G1N9kDHqBrQ-unsplash.jpg",
+            date: "2nd July 2025",
+            location: "iLabAfrica",
+            category: "Bootcamps"
+        },
   ]);
 
   return { events };

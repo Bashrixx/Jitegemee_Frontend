@@ -1,5 +1,5 @@
 <template>
-<v-app-bar color = "#0ADDFE">
+<v-app-bar color = "indigo">
     <v-app-bar-title>Jitegemee University</v-app-bar-title>
     <v-btn to="/" color="grey"> Home</v-btn>
     <v-btn to="/aboutus" color="grey"> About Us</v-btn>
