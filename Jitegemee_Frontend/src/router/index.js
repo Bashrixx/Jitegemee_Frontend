@@ -8,7 +8,8 @@ import HomePage from '../components/HomePage.vue'
 import Library from '../components/Library.vue'
 import LogIn from '../components/LogIn.vue'
 import StudentLife from '../components/StudentLife.vue'
-
+import SignUp from '../components/SignUp.vue'
+import Welcome from '../components/Welcome.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -58,7 +59,20 @@ const router = createRouter({
       name: 'studentlife',
       component:StudentLife ,
     },
-    
+    {
+    path: '/signup',
+    name: 'SignUp',
+    component: SignUp
+  },
+  {
+    path: '/welcome',
+    name: 'Welcome',
+    component: Welcome
+  },
+  {
+    path: '/',
+    redirect: '/signup'
+  }    
   ],
 })
 
