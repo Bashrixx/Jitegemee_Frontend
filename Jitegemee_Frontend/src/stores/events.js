@@ -17,6 +17,5 @@ export const useEventsStore = defineStore('events', {
             this.events = response.data
         }
     },
-    persist: true,
 
 })
